@@ -41,7 +41,7 @@ function atualizarLista() {
 function sortearAmigo() {
     if( amigos != []) {
         let numeroAleatorio = Math.floor(Math.random() * amigos.length);
-        let resultado = document.getElementById("sortear");
+        let resultado = document.getElementById("resultado");
         resultado.innerHTML = amigos[numeroAleatorio]; 
     }
 }
