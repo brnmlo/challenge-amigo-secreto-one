@@ -22,7 +22,6 @@ function adicionarAmigo() {
         nomeDoAmigo = "";
     }
     atualizarLista();
-    console.log(amigos);
 }
 /*  
     Crie uma função que percorra o array amigos e adicione cada nome como um elemento <li> dentro
