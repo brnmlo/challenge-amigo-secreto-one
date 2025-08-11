@@ -20,7 +20,7 @@
 <h2> :ballot_box_with_check: Do que se trata? </h2>
 
 <p>
-  É uma aplicação em um site onde o usuário pode listar os nomes dos amigos e realizar um sorteio de amigo secreto. <br>
+  É uma aplicação em um site onde o usuário pode listar os nomes dos amigos e realizar um sorteio de amigo secreto.
   Mas não se limite a isso, você pode sortear quem vai pagar a conta, quem vai ser o motorista da rodada ou até quem vai começar no gol. 
 </p>
   
