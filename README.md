@@ -22,7 +22,7 @@
 <p>
   É uma aplicação em um site onde o usuário pode listar os nomes dos amigos e realizar um sorteio de amigo secreto. <br>
   Mas não se limite a isso, você pode sortear quem vai pagar a conta, quem vai ser o motorista da rodada ou até quem vai começar no gol. 
-<\p>
+</p>
   
 <h2> :ballot_box_with_check: E como isso funciona? </h2>  
 
