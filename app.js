@@ -4,18 +4,17 @@
 let amigos = [];
 
 /*  
-    Implementar uma função para agregar amigos
-    A função não pode adicionar um nome vazio à lista
-    A função não permite adicionar um nome igual ao que já tem na lista
+    Desenvolva uma função que permita ao usuário inserir um nome no campo 
+    de texto e adicioná-lo à lista de amigos criada anteriormente.
 */
 
 function adicionarAmigo() {
     //tomando o nome digitado no campo
     let nomeDoAmigo = document.querySelector('input').value;
-    //realizando as condições que impedem que uma string vazia ou um nome repetido
-    //seja adicionado na lista de amigos
-    if( nomeDoAmigo == "" || amigos.includes( nomeDoAmigo ) ) { 
-        alert("O nome já está na lista ou nenhum nome foi digitado!");
+    //realizando as condições que impedem que uma string vazia
+    //seja adicionada na lista de amigos
+    if( nomeDoAmigo == "" ) { 
+        alert("Por favor, insira um nome.");
     } 
     else {
         amigos.push(nomeDoAmigo);
@@ -23,10 +22,13 @@ function adicionarAmigo() {
     }
     atualizarLista();
 }
+
 /*  
-    Crie uma função que percorra o array amigos e adicione cada nome como um elemento <li> dentro
-    de uma lista HTML. Use innerHTML para limpar a lista antes de adicionar novos elementos.
+    Crie uma função que percorra o array amigos e adicione cada nome como um
+    elemento <li> dentro de uma lista HTML. Use innerHTML para limpar a lista
+    antes de adicionar novos elementos.
 */
+
 function atualizarLista() {
     let lista = document.getElementById("listaAmigos");
     lista.innerHTML = "";
@@ -35,8 +37,8 @@ function atualizarLista() {
     }
 }
 /*
-    implementar uma função para sortear os amigos;
-    1. O sorteio pode ser feito através do índice de cada nome na lista
+    Escreva uma função que selecione aleatoriamente um dos nomes armazenados no 
+    array amigos. Use Math.random() e Math.floor() para obter um índice aleatório.
 */
 function sortearAmigo() {
     if( amigos != []) {
